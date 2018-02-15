@@ -13,7 +13,7 @@
 <body>
     <!-- HTML GOES HERE -->
     <nav class="navbar navbar-expand-md default">
-        <a class="navbar-brand" href="https://github.com/RickBr0wn/tribute_website"><i class="fab fa-github"></i>  Rick Brown<span class="sr-only">(current)</span></a></a>
+        <a class="navbar-brand" href="https://github.com/RickBr0wn/"><i class="fab fa-github"></i>  Rick Brown<span class="sr-only">(current)</span></a></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -26,8 +26,8 @@
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Matches</a>
               <div class="dropdown-menu" aria-labelledby="dropdown01">
-                <a class="dropdown-item" href="pages.html">Matches</a>
-                <a class="dropdown-item" href="Results.html">Results</a>
+                <a class="dropdown-item" href="pages.html">Groups</a>
+                <a class="dropdown-item" href="matches.html">Matches</a>
                 <a class="dropdown-item" href="users.html">Players</a>
               </div>
             </li>
@@ -79,30 +79,31 @@
                         <a href="index.html" class="list-group-item active main-color-bg">
                                 <i class="fas fa-cog"></i>Dashboard
                         </a>
-                        <a href="matches.html" class="list-group-item"><i class="fas fa-table-tennis"></i>Matches <span class="badge badge-dark float-right">0</span></a>
-                        <a href="results.index" class="list-group-item"><i class="fas fa-pencil-alt"></i>Results <span class="badge badge-dark float-right">0</span></a>
+                        <a href="groups.html" class="list-group-item"><i class="fas fa-table"></i>Groups <span class="badge badge-dark float-right">8</span></a>
+                        <a href="matches.index" class="list-group-item"><i class="fas fa-table-tennis"></i>Matches <span class="badge badge-dark float-right">425</span></a>
+                        <a href="results.index" class="list-group-item"><i class="fas fa-pencil-alt"></i>Resultes <span class="badge badge-dark float-right">425</span></a>
                         <a href="users.html" class="list-group-item"><i class="fas fa-users"></i>Players <span class="badge badge-dark float-right">40</span></a>
                     </div>
                     <p></p>
                     <div class="card prog-bars">
-                        <h6>Disc Space Used</h6>
+                        <h6>Overall Tournament Played</h6>
                         <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
-                                60%
+                            <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
+                                <!-- Number to go here -->
                             </div>
                         </div>
-                        <h6>Bandwidth Used</h6>
+                        <!-- <h6>Bandwidth Used</h6>
                         <div class="progress">
                             <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%;">
                                 30%
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
                 <div class="col-md-9">
                     <div class="card">
                         <div class="card-header">
-                            Tournament Overview
+                            Tournament Highlights
                         </div>
                         <div class="card-block">
                             <blockquote class="card-blockquote">
@@ -110,26 +111,30 @@
                                 <div class="row">
                                     <div class="col-md-3">
                                         <div class="card myCard">
-                                            <h2><i class="fas fa-pencil-alt fa-xs"></i>0</h2>
-                                            <h4>Results</h4>
+                                            <h2><i class="fas fa-table"></i>8</h2>
+                                            <h4>Groups</h4>
+                                            <button>View Groups A-H</button>
                                         </div>
                                     </div>
                                     <div class="col-md-3">
                                         <div class="card myCard">
-                                            <h2><i class="fas fa-table-tennis"></i>0</h2>
+                                            <h2><i class="fas fa-table-tennis"></i>425</h2>
                                             <h4>Matches</h4>
+                                            <button>View All Matches</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card myCard">
+                                            <h2><i class="fas fa-pencil-alt"></i>0</h2>
+                                            <h4>Results</h4>
+                                            <button>View All Results</button>
                                         </div>
                                     </div>
                                     <div class="col-md-3">
                                         <div class="card myCard">
                                             <h2><i class="fas fa-users fa-xs"></i>40</h2>
                                             <h4>Players</h4>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <div class="card myCard">
-                                            <h2><i class="fas fa-eye fa-xs"></i>1</h2>
-                                            <h4>Visitors</h4>
+                                            <button>View All Players</button>
                                         </div>
                                     </div>
                                 </row>
@@ -138,22 +143,54 @@
                     </div>
                     <p></p>
                     <div class="card">
-                            <div class="card-header">
-                                Recent Results
-                            </div>
-                            <div class="card-block">
+                        <div class="card-header">
+                            Tournament Overview
+                        </div>
+                        <div class="card-block">
+                            <blockquote class="card-blockquote">
+                                <p></p>
+                                <div class="row">
+                                    <div class="container">
+                                        <div class="card myCard cardRules">          
+                                            <h2>The Group Phase.</h2><p>Each player plays every player in their group once. <strong>Three tournament points</strong> are awarded for a win, and zero tournament points for a loss. The four players with the highest tournament points from each group** will progress into the knockout phase of the tournament.</p>
+                                            <h7 class="text-muted">** Total points scored in each match are also added together, in the event of a tie-breaker. </h7>
+                                            <p></p>
+                                        </div>
+                                    </div>
+                                </row>
+                            </blockquote>
+                        </div>
+                        <div class="card-block">
                                 <blockquote class="card-blockquote">
                                     <p></p>
                                     <div class="row">
                                         <div class="container">
-                                            <div class="card myCard">          
-                                                No games have been played yet.
+                                            <div class="card myCard cardRules">          
+                                                <h2>The Knockout Phase.</h2><p>Players will play each other once, in a <strong>best of fifteen</strong> match. The loser of the match will be illiminated, and the winner will progress to the next round. The two losing players from the semi-final, will play each other one last time for third place.</p>
                                             </div>
                                         </div>
                                     </row>
                                 </blockquote>
                             </div>
+                    </div>
+                    <p></p>
+                    <div class="card">
+                        <div class="card-header">
+                            Recent Results
                         </div>
+                        <div class="card-block">
+                            <blockquote class="card-blockquote">
+                                <p></p>
+                                <div class="row">
+                                    <div class="container">
+                                        <div class="card myCard">          
+                                            No games have been played yet.
+                                        </div>
+                                    </div>
+                                </row>
+                            </blockquote>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

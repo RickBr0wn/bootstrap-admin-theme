@@ -178,6 +178,16 @@ a.nav-link {
   color: white;
 }
 
+.cardRules {
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+h7{
+  font-size: 12px;
+}
+
 /* Footer */
 
 footer{
