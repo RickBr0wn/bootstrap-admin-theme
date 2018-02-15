@@ -1,0 +1,10 @@
+{
+    "tournament": {
+        "player": {
+            "name": [],
+            "matches-played": 0,
+            "match-points": 0,
+            "tournament-points": 0
+        }
+    }
+}
