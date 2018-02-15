@@ -158,6 +158,26 @@ h6 {
   margin-top: 10px;
 }
 
+/* Cards */
+.card-header{
+  color: #fff !important;
+  background: #e74c3c;
+}
+
+.myCard {
+  background: #f4f4f4;
+  text-align: center;
+}
+
+.card-block {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+a.nav-link {
+  color: white;
+}
+
 /* Footer */
 
 footer{
