@@ -121,6 +121,16 @@ h3.text-muted {
     color: #ffffff;
 }
 
+/* Breadcrumb */
+.breadcrumb{
+  background: #cccccc;
+  color: #333333;
+}
+
+.breadcrumb a{
+  color: #333333;
+}
+
 /* Footer */
 
 footer{
