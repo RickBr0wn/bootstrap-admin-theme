@@ -78,6 +78,15 @@ body{
     color: #ffbbbc;
   }
 
+  nav.navbar.navbar-expand-md.default{
+    height: 28px;
+  }
+
+  a.nav-link {
+    height: 28px;
+    padding-top: 2px;
+}
+
 /* */
 
 /* Header */
