@@ -80,7 +80,11 @@ body{
 
 /* */
 
-
+.main-color-bg{
+    background-color: #e74c3c !important;
+    border-color: #c0392b !important;
+    color: #ffffff;
+}
 
 footer{
     margin-top: 200px;
