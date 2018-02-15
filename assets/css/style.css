@@ -2,7 +2,7 @@ body{
     background-color: #f4f4f4;
 }
 
-/* */
+/* Navbar */
 .navbar {
     background-color: #e74c3c;
   }
@@ -80,11 +80,26 @@ body{
 
 /* */
 
+/* Header */
+#header{    
+    background-color: #333333;
+    color: #ffffff;
+    padding: 10px 0;
+    margin-bottom: 15px;
+}
+
+#header .create{
+    padding-top: 10px;
+}
+/* Custom */
+
 .main-color-bg{
     background-color: #e74c3c !important;
     border-color: #c0392b !important;
     color: #ffffff;
 }
+
+/* Footer */
 
 footer{
     margin-top: 200px;
