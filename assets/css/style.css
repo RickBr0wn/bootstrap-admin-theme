@@ -131,6 +131,20 @@ h3.text-muted {
   color: #333333;
 }
 
+/* Sidebar */
+
+svg.svg-inline--fa {
+  margin-right: 5px;
+}
+
+.badge{
+  margin-top: 4px;
+}
+
+a.list-group-item {
+  color: black;
+}
+
 /* Footer */
 
 footer{
