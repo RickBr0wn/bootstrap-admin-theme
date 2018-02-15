@@ -132,7 +132,6 @@ h3.text-muted {
 }
 
 /* Sidebar */
-
 svg.svg-inline--fa {
   margin-right: 5px;
 }
@@ -142,7 +141,21 @@ svg.svg-inline--fa {
 }
 
 a.list-group-item {
-  color: black;
+  color: #333333;
+}
+
+/* Progress Bars */
+.progress-bar{
+  background: #333333;
+  color: #ffffff;
+}
+
+.card{
+  padding: 0px 5px 10px 5px !important;
+}
+
+h6 {
+  margin-top: 10px;
 }
 
 /* Footer */
