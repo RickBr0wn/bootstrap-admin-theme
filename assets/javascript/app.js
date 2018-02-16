@@ -1,4 +1,4 @@
-import shuffleArray from 'shuffle.js';
+// import {shuffleArray} from 'shuffle.js';
 
 // let players = ["Dave", "Bob", "Sue", "George", "Peter"]
 // let p1 = document.getElementById('p1');
@@ -12,8 +12,20 @@ import shuffleArray from 'shuffle.js';
 //     arr[i].innerHTML = players[i];
 // }
 
-let obj;
-let text = $.getJSON('/assets/json/players.json', function(){
-    obj = JSON.parse(text.responseText);
-    console.log(obj);
+$(document).ready(function(){
+    $.getJSON("https://api.myjson.com/bins/xvjzx", function(result){
+        let arr = result.original.player;
+        for(let i = 0; i < arr.length; i++){
+            console.log(arr[i]);
+        }
+        createTable(arr, 6);
+    });
 });
+
+function createTable(arr, group){
+    let grp = group-1;
+    let data = "<table><tr><th>Player Name</th><th>Games Played</th><th>Match Points</th><th>Tournament Points</th></tr><tr><td>" + arr[0+grp] + "</td><td>0</td><td>0</td><td>0</td></tr><tr><td>" + arr[1+grp] + "</td><td>0</td><td>0</td><td>0</td></tr><tr><td>" + arr[2+grp] + "</td><td>0</td><td>0</td><td>0</td></tr><tr><td>" + arr[3+grp] + "</td><td>0</td><td>0</td><td>0</td></tr><tr><td>" + arr[4+grp] + "</td><td>0</td><td>0</td><td>0</td></tr></table>";
+    
+    document.getElementById('groupA').innerHTML = data;
+	console.log(arr[0]);
+}
