@@ -1,19 +1,41 @@
-import shuffleArray from 'shuffle.js';
+// http://myjson.com
 
-// let players = ["Dave", "Bob", "Sue", "George", "Peter"]
-// let p1 = document.getElementById('p1');
-// let p2 = document.getElementById('p2');
-// let p3 = document.getElementById('p3');
-// let p4 = document.getElementById('p4');
-// let p5 = document.getElementById('p5');
-// let arr = [p1, p2, p3, p4, p5];
-
-// for(let i = 0; i < players.length; i++){
-//     arr[i].innerHTML = players[i];
-// }
-
-let obj;
-let text = $.getJSON('/assets/json/players.json', function(){
-    obj = JSON.parse(text.responseText);
-    console.log(obj);
+$(document).ready(function(){
+    $.getJSON("https://api.myjson.com/bins/xvjzx", function(result){
+        let arr = result.original.player;
+        let tableA = createTable(arr, 1);
+        let tableB = createTable(arr, 6);
+        let tableC = createTable(arr, 11);
+        let tableD = createTable(arr, 16);
+        let tableE = createTable(arr, 21);
+        let tableF = createTable(arr, 26);
+        let tableG = createTable(arr, 31);
+        let tableH = createTable(arr, 36);
+        
+        document.getElementById('tableA').innerHTML = tableA;
+        document.getElementById('tableB').innerHTML = tableB;
+        document.getElementById('tableC').innerHTML = tableC;
+        document.getElementById('tableD').innerHTML = tableD;
+        document.getElementById('tableE').innerHTML = tableE;
+        document.getElementById('tableF').innerHTML = tableF;
+        document.getElementById('tableG').innerHTML = tableG;
+        document.getElementById('tableH').innerHTML = tableH;
+    });
 });
+
+function createTable(arr, group){
+    let grp = group-1;
+    let data = "<table><tr><th>Player Name</th><th>Games Played</th><th>Match Points</th><th>Tournament Points</th></tr><tr><td>";
+    data += arr[0+grp];
+    data += "</td><td>0</td><td>0</td><td>0</td></tr><tr><td>";
+    data += arr[1+grp];
+    data += "</td><td>0</td><td>0</td><td>0</td></tr><tr><td>";
+    data += arr[2+grp];
+    data += "</td><td>0</td><td>0</td><td>0</td></tr><tr><td>";
+    data += arr[3+grp];
+    data += "</td><td>0</td><td>0</td><td>0</td></tr><tr><td>";
+    data += arr[4+grp];
+    data += "</td><td>0</td><td>0</td><td>0</td></tr></table>";
+    
+    return data;
+}
