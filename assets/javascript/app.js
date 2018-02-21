@@ -41,11 +41,3 @@ function createTable(arr, group){
     
     return data;
 }
-
-function createMatch(arr, group){
-    console.log(arr);
-    let grp = group-1;
-    let data = "<table><tr><td>";
-    data += arr[0+grp] + " vs " + arr[1+group];
-    data += "</td></tr></table>";
-}

@@ -6,6 +6,13 @@ $(document).ready(function(){
         console.log(arr);
 
         let matchA = createMatch(arr, 1);
+        let matchB = createMatch(arr, 6);
+        let matchC = createMatch(arr, 11);
+        let matchD = createMatch(arr, 16);
+        let matchE = createMatch(arr, 21);
+        let matchF = createMatch(arr, 26);
+        let matchG = createMatch(arr, 31);
+        let matchH = createMatch(arr, 36);
 
         document.getElementById('matchA').innerHTML = matchA;
         document.getElementById('matchB').innerHTML = matchB;
@@ -22,6 +29,8 @@ function createMatch(arr, group){
     console.log(arr);
     let grp = group-1;
     let data = "<table><tr><td>";
-    data += arr[0+grp] + " vs " + arr[1+group];
+    data += arr[0+grp] + " vs " + arr[1+grp];
     data += "</td></tr></table>";
+
+    return data;
 }
