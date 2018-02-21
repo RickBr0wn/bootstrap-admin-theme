@@ -1,8 +1,9 @@
 // http://myjson.com
 
 $(document).ready(function(){
-    $.getJSON("https://api.myjson.com/bins/xvjzx", function(result){
+    $.getJSON("https://api.myjson.com/bins/mnq9l", function(result){
         let arr = result.original.player;
+        console.log(arr);
         let tableA = createTable(arr, 1);
         let tableB = createTable(arr, 6);
         let tableC = createTable(arr, 11);
