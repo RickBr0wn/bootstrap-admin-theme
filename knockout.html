@@ -11,6 +11,9 @@
         crossorigin="anonymous">
     <!-- Google Fonts Here -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <script type="text/javascript" src="/assets/javascript/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="/assets/javascript/jquery.bracket.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/jquery.bracket.min.css" />
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- CTRL Click Here -->
 </head>
@@ -56,22 +59,11 @@
         <div class="container">
             <div class="row header-row">
                 <div class="col-md-10">
-                    <i class="fas fa-table fa-2x float-left"></i>
-                    <h1>The Group Phase </h1>
+                    <i class="fas fa-trophy fa-2x float-left"></i>
+                    <h1>The Knockout Phase </h1>
                     <h3 class="text-muted">Hobbs Parker Table Tennis Tournament 2018</h3>
                 </div>
-                <div class="col-md-2">
-                    <!-- <div class="dropdown create">
-                        <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Edit Content
-                        </button>
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                            <a class="dropdown-item" href="#">Add Score</a>
-                            <a class="dropdown-item" href="#">Add Player</a>
-                            <a class="dropdown-item" href="#">Add Administrator</a>
-                        </div>
-                    </div> -->
-                </div>
+                <div class="col-md-2"></div>
             </div>
         </div>
     </header>
@@ -96,11 +88,11 @@
                             <i class="fas fa-table"></i>Groups
                             <span class="badge badge-dark float-right">8</span>
                         </a>
-                        <a href="matches.index" class="list-group-item">
+                        <a href="results.html" class="list-group-item">
                             <i class="fas fa-table-tennis"></i>Matches & Results
                             <span class="badge badge-dark float-right"></span>
                         </a>
-                        <a href="knockout.index" class="list-group-item">
+                        <a href="knockout.html" class="list-group-item">
                             <i class="fas fa-trophy"></i>Knock Out Stage</a>
                         <a href="users.html" class="list-group-item">
                             <i class="fas fa-users"></i>Players
@@ -128,13 +120,9 @@
                                 <div class="row">
                                     <div class="container">
                                         <div class="card myCard cardRules">
-                                            <h2>The Group Phase.</h2>
-                                            <p>Each player plays every player in their group once.
-                                                <strong>Three tournament points</strong> are awarded for a win, and zero tournament
-                                                points for a loss. The four players with the highest tournament points from
-                                                each group** will progress into the knockout phase of the tournament.</p>
-                                            <h7 class="text-muted">** Total points scored in each match are also added together, in the event of
-                                                a tie-breaker. </h7>
+                                            <h2>The Knockout Phase.</h2>
+                                            <p>The <strong>knockout</strong> phase. Games are played in rounds. All games in each round should be played before moving onto the next round.     Congratulations for making it this far. Well done, and <strong>good luck!!</strong>
+                                            </p>
                                             <p></p>
                                         </div>
                                     </div>
@@ -143,96 +131,43 @@
                             </div>
                         </div>
                         <p></p>
-                        <div class="card text-center">
+                        <div class="card">
                             <div class="card-header">
-                                <ul class="nav nav-tabs card-header-tabs">
-                                    <li class="nav-item">
-                                        <a class="nav-link" active id="groupA-tab" data-toggle="tab" href="#groupA" role="tab" aria-controls="groupA" aria-selected="true">Group A</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" id="groupB-tab" data-toggle="tab" href="#groupB" role="tab" aria-controls="groupB" aria-selected="true">Group B</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" id="groupC-tab" data-toggle="tab" href="#groupC" role="tab" aria-controls="groupC" aria-selected="true">Group C</a>
-                                    </li>
-                                    <li>
-                                        <a class="nav-link" id="groupD-tab" data-toggle="tab" href="#groupD" role="tab" aria-controls="groupD" aria-selected="true">Group D</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" id="groupE-tab" data-toggle="tab" href="#groupE" role="tab" aria-controls="groupE" aria-selected="true">Group E</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" id="groupF-tab" data-toggle="tab" href="#groupF" role="tab" aria-controls="groupF" aria-selected="true">Group F</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" id="groupG-tab" data-toggle="tab" href="#groupG" role="tab" aria-controls="groupG" aria-selected="true">Group G</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" id="groupH-tab" data-toggle="tab" href="#groupH" role="tab" aria-controls="groupH" aria-selected="true">Group H</a>
-                                    </li>
-                                </ul>
+                                The Knockout Phase
                             </div>
                             <div class="card-body">
-                                <div class="card myCard cardRules">
-                                    <div class="tab-content" id="myTabContent">
-                                        <div class="tab-pane fade show active" id="groupA" role="tabpanel" aria-labelledby="groupA-tab">
-                                            <p></p>
-                                            <h2>Group A</h2>
-                                            <p></p>
-                                            <div id="tableA"></div>
-                                            <p></p>
-                                        </div>
-                                        <div class="tab-pane fade" id="groupB" role="tabpanel" aria-labelledby="groupB-tab">
-                                            <p></p>
-                                            <h2>Group B</h2>
-                                            <p></p>
-                                            <div id="tableB"></div>
-                                            <p></p>
-                                        </div>
-                                        <div class="tab-pane fade" id="groupC" role="tabpanel" aria-labelledby="groupC-tab">
-                                            <p></p>
-                                            <h2>Group C</h2>
-                                            <p></p>
-                                            <div id="tableC"></div>
-                                            <p></p>
-                                        </div>
-                                        <div class="tab-pane fade" id="groupD" role="tabpanel" aria-labelledby="groupD-tab">
-                                            <p></p>
-                                            <h2>Group D</h2>
-                                            <p></p>
-                                            <div id="tableD"></div>
-                                            <p></p>
-                                        </div>
-                                        <div class="tab-pane fade" id="groupE" role="tabpanel" aria-labelledby="groupE-tab">
-                                            <p></p>
-                                            <h2>Group E</h2>
-                                            <p></p>
-                                            <div id="tableE"></div>
-                                            <p></p>
-                                        </div>
-                                        <div class="tab-pane fade" id="groupF" role="tabpanel" aria-labelledby="groupF-tab">
-                                            <p></p>
-                                            <h2>Group F</h2>
-                                            <p></p>
-                                            <div id="tableF"></div>
-                                            <p></p>
-                                        </div>
-                                        <div class="tab-pane fade" id="groupG" role="tabpanel" aria-labelledby="groupG-tab">
-                                            <p></p>
-                                            <h2>Group G</h2>
-                                            <p></p>
-                                            <div id="tableG"></div>
-                                            <p></p>
-                                        </div>
-                                        <div class="tab-pane fade" id="groupH" role="tabpanel" aria-labelledby="groupH-tab">
-                                            <p></p>
-                                            <h2>Group H</h2>
-                                            <p></p>
-                                            <div id="tableH"></div>
-                                            <p></p>
-                                        </div>
-                                    </div>
-                                </div>
+                                <div class="tournament"></div>
+
+                                <script>
+                                    var minData = {
+                                        teams: [
+                                            ["Group A #1", "Wildcard #1"],
+                                            ["Group B #1", "Group J #3"],
+                                            ["Group C #1", "Group i #3"],
+                                            ["Group D #1", "Group H #3"],
+                                            ["Group E #1", "Group G #3"],
+                                            ["Group J #2", "Group C #2"],
+                                            ["Group i #2", "Group B #2"],
+                                            ["Group H #2", "Group A #2"],
+                                            ["Group G #2", "Group D #2"],
+                                            ["Group E #2", "Group F #3"],
+                                            ["Group J #1", "Wildcard #2"],
+                                            ["Group F #1", "Group E #3"],
+                                            ["Group G #1", "Group D #3"],
+                                            ["Group H #1", "Group C #3"],
+                                            ["Group i #1", "Group B #3"],
+                                            ["Group F #2", "Group A #3"]
+                                        ],
+                                        results: [
+                                            
+                                        ]
+                                    }
+                                    $('.tournament').bracket({
+                                        init: minData,
+                                        teamWidth: 100
+                                    })
+                                </script>
+                                
                             </div>
                         </div>
                         <p></p>
@@ -269,6 +204,7 @@
     </footer>
 
     <!-- HTML ENDS HERE -->
+    
     <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
