@@ -12,8 +12,6 @@ $(document).ready(function(){
         let tableF = createTable(arr, 26);
         let tableG = createTable(arr, 31);
         let tableH = createTable(arr, 36);
-
-        let matchA = createMatch(arr, 1);
         
         document.getElementById('tableA').innerHTML = tableA;
         document.getElementById('tableB').innerHTML = tableB;
@@ -24,14 +22,6 @@ $(document).ready(function(){
         document.getElementById('tableG').innerHTML = tableG;
         document.getElementById('tableH').innerHTML = tableH;
 
-        document.getElementById('matchA').innerHTML = matchA;
-        document.getElementById('matchB').innerHTML = matchB;
-        document.getElementById('matchC').innerHTML = matchC;
-        document.getElementById('matchD').innerHTML = matchD;
-        document.getElementById('matchE').innerHTML = matchE;
-        document.getElementById('tableF').innerHTML = matchF;
-        document.getElementById('tableG').innerHTML = matchG;
-        document.getElementById('matchH').innerHTML = matchH;
     });
 });
 
