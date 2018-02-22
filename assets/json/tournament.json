@@ -1,51 +1,330 @@
 {
     "tournament": {
-        "player": {
-            "name": [
-                "Alex",
-                "Andrea",
-                "Becky",
-                "Claire",
-                "David",
-                "Dawn",
-                "Ellie",
-                "Elwyn",
-                "Emily",
-                "Hayley",
-                "Heather",
-                "Irianna",
-                "Jackie",
-                "James H",
-                "James J",
-                "Jamie",
-                "Jane",
-                "John R",
-                "Jon C",
-                "Jon R",
-                "Kate",
-                "Lynsey",
-                "Malcolm",
-                "Mandy",
-                "Mark",
-                "Martin",
-                "Matt",
-                "Michelle",
-                "Paul",
-                "Peter",
-                "Philip",
-                "Rachel",
-                "Sam",
-                "Sarah",
-                "Sophie",
-                "Steve",
-                "Stuart",
-                "Sue M",
-                "Sue S",
-                "Tracey"
-            ],
-            "matches-played": 0,
-            "match-points": 0,
-            "tournament-points": 0
-        }
+        "players": [{
+                "name": "John R",
+                "mPoints": 0,
+                "tPoints": 0,
+                "matchesPlayed": 0,
+                "group": "A"
+            },
+            {
+                "name": "James H",
+                "mPoints": 0,
+                "tPoints": 0,
+                "matchesPlayed": 0,
+                "group": "A"
+            },
+            {
+                "name": "Stuart",
+                "mPoints": 0,
+                "tPoints": 0,
+                "matchesPlayed": 0,
+                "group": "A"
+            },
+            {
+                "name": "Michelle",
+                "mPoints": 0,
+                "tPoints": 0,
+                "matchesPlayed": 0,
+                "group": "A"
+            },
+            {
+                "name": "Sue S",
+                "mPoints": 0,
+                "tPoints": 0,
+                "matchesPlayed": 0,
+                "group": "A"
+            },
+            {
+                "name": "Kate",
+                "mPoints": 0,
+                "tPoints": 0,
+                "matchesPlayed": 0,
+                "group": "B"
+            },
+            {
+                "name": "Andrea",
+                "mPoints": 0,
+                "tPoints": 0,
+                "matchesPlayed": 0,
+                "group": "B"
+            },
+            {
+                "name": "Malcolm",
+                "mPoints": 0,
+                "tPoints": 0,
+                "matchesPlayed": 0,
+                "group": "B"
+            },
+            {
+                "name": "Emily",
+                "mPoints": 0,
+                "tPoints": 0,
+                "matchesPlayed": 0,
+                "group": "B"
+            },
+            {
+                "name": "Dawn",
+                "mPoints": 0,
+                "tPoints": 0,
+                "matchesPlayed": 0,
+                "group": "B"
+            },
+            {
+                "name": "Claire",
+                "mPoints": 0,
+                "tPoints": 0,
+                "matchesPlayed": 0,
+                "group": "C"
+            },
+            {
+                "name": "Jackie",
+                "mPoints": 0,
+                "tPoints": 0,
+                "matchesPlayed": 0,
+                "group": "C"
+            },
+            {
+                "name": "Mark",
+                "mPoints": 0,
+                "tPoints": 0,
+                "matchesPlayed": 0,
+                "group": "C"
+            },
+            {
+                "name": "Mandy",
+                "mPoints": 0,
+                "tPoints": 0,
+                "matchesPlayed": 0,
+                "group": "C"
+            },
+            {
+                "name": "Jamie",
+                "mPoints": 0,
+                "tPoints": 0,
+                "matchesPlayed": 0,
+                "group": "C"
+            },
+            {
+                "name": "Ellie",
+                "mPoints": 0,
+                "tPoints": 0,
+                "matchesPlayed": 0,
+                "group": "D"
+            },
+            {
+                "name": "Sophie",
+                "mPoints": 0,
+                "tPoints": 0,
+                "matchesPlayed": 0,
+                "group": "D"
+            },
+            {
+                "name": "Sue M",
+                "mPoints": 0,
+                "tPoints": 0,
+                "matchesPlayed": 0,
+                "group": "D"
+            },
+            {
+                "name": "Sam",
+                "mPoints": 0,
+                "tPoints": 0,
+                "matchesPlayed": 0,
+                "group": "D"
+            },
+            {
+                "name": "Elwyn",
+                "mPoints": 0,
+                "tPoints": 0,
+                "matchesPlayed": 0,
+                "group": "D"
+            },
+            {
+                "name": "Hayley",
+                "mPoints": 0,
+                "tPoints": 0,
+                "matchesPlayed": 0,
+                "group": "E"
+            },
+            {
+                "name": "David",
+                "mPoints": 0,
+                "tPoints": 0,
+                "matchesPlayed": 0,
+                "group": "E"
+            },
+            {
+                "name": "Jon R",
+                "mPoints": 0,
+                "tPoints": 0,
+                "matchesPlayed": 0,
+                "group": "E"
+            },
+            {
+                "name": "Lynsey",
+                "mPoints": 0,
+                "tPoints": 0,
+                "matchesPlayed": 0,
+                "group": "E"
+            },
+            {
+                "name": "Matt",
+                "mPoints": 0,
+                "tPoints": 0,
+                "matchesPlayed": 0,
+                "group": "E"
+            },
+            {
+                "name": "Irianna",
+                "mPoints": 0,
+                "tPoints": 0,
+                "matchesPlayed": 0,
+                "group": "F"
+            },
+            {
+                "name": "Martin",
+                "mPoints": 0,
+                "tPoints": 0,
+                "matchesPlayed": 0,
+                "group": "F"
+            },
+            {
+                "name": "Rachel",
+                "mPoints": 0,
+                "tPoints": 0,
+                "matchesPlayed": 0,
+                "group": "F"
+            },
+            {
+                "name": "James J",
+                "mPoints": 0,
+                "tPoints": 0,
+                "matchesPlayed": 0,
+                "group": "F"
+            },
+            {
+                "name": "Peter",
+                "mPoints": 0,
+                "tPoints": 0,
+                "matchesPlayed": 0,
+                "group": "F"
+            },
+            {
+                "name": "Paul",
+                "mPoints": 0,
+                "tPoints": 0,
+                "matchesPlayed": 0,
+                "group": "G"
+            },
+            {
+                "name": "Alex",
+                "mPoints": 0,
+                "tPoints": 0,
+                "matchesPlayed": 0,
+                "group": "G"
+            },
+            {
+                "name": "Jane",
+                "mPoints": 0,
+                "tPoints": 0,
+                "matchesPlayed": 0,
+                "group": "G"
+            },
+            {
+                "name": "Steve",
+                "mPoints": 0,
+                "tPoints": 0,
+                "matchesPlayed": 0,
+                "group": "G"
+            },
+            {
+                "name": "Becky",
+                "mPoints": 0,
+                "tPoints": 0,
+                "matchesPlayed": 0,
+                "group": "G"
+            },
+            {
+                "name": "Phillip",
+                "mPoints": 0,
+                "tPoints": 0,
+                "matchesPlayed": 0,
+                "group": "H"
+            },
+            {
+                "name": "Heather",
+                "mPoints": 0,
+                "tPoints": 0,
+                "matchesPlayed": 0,
+                "group": "H"
+            },
+            {
+                "name": "Jon C",
+                "mPoints": 0,
+                "tPoints": 0,
+                "matchesPlayed": 0,
+                "group": "H"
+            },
+            {
+                "name": "Tracey",
+                "mPoints": 0,
+                "tPoints": 0,
+                "matchesPlayed": 0,
+                "group": "H"
+            },
+            {
+                "name": "Sarah",
+                "mPoints": 0,
+                "tPoints": 0,
+                "matchesPlayed": 0,
+                "group": "H"
+            }
+
+        ]
+    },
+    "original": {
+        "names": [
+            "Alex",
+            "Andrea",
+            "Becky",
+            "Claire",
+            "David",
+            "Dawn",
+            "Ellie",
+            "Elwyn",
+            "Emily",
+            "Hayley",
+            "Heather",
+            "Irianna",
+            "Jackie",
+            "James H",
+            "James J",
+            "Jamie",
+            "Jane",
+            "John R",
+            "Jon C",
+            "Jon R",
+            "Kate",
+            "Lynsey",
+            "Malcolm",
+            "Mandy",
+            "Mark",
+            "Martin",
+            "Matt",
+            "Michelle",
+            "Paul",
+            "Peter",
+            "Philip",
+            "Rachel",
+            "Sam",
+            "Sarah",
+            "Sophie",
+            "Steve",
+            "Stuart",
+            "Sue M",
+            "Sue S",
+            "Tracey"
+        ]
     }
 }
