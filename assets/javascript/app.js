@@ -22,6 +22,9 @@ $(document).ready(function(){
         document.getElementById('tableG').innerHTML = tableG;
         document.getElementById('tableH').innerHTML = tableH;
 
+        let sortA = document.getElementById('tableA');
+        sortTable(tableA, 3);
+
     });
 });
 
