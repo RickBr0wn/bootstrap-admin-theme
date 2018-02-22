@@ -8,15 +8,14 @@ $(document).ready(function(){
         
         document.getElementById('table').innerHTML = table;
         let sorted = document.getElementById('table');
-        sortTable(sorted);
-        console.log(sorted);
+        sortTable(sorted, 0);
     });
 });
 
 function createTable(obj){
-    console.log(obj.players[0].matchesPlayed);
     let data = "<table><tr><th>Player Name</th><th>Group</th></tr><tr><td>";
     for(let i = 0; i < obj.players.length; i++){
+        console.log(obj.players[i].name);
         data += obj.players[i].name;
         data += "</td><td>";
         data += obj.players[i].group;

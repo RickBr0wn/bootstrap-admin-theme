@@ -1,5 +1,6 @@
-function sortTable(table) {
+function sortTable(table, pos) {
     let rows, switching, i, x, y, shouldSwitch;
+    console.log(pos);
     switching = true;
     /* Make a loop that will continue until
     no switching has been done: */
@@ -14,8 +15,8 @@ function sortTable(table) {
         shouldSwitch = false;
         /* Get the two elements you want to compare,
         one from current row and one from the next: */
-        x = rows[i].getElementsByTagName("TD")[0];
-        y = rows[i + 1].getElementsByTagName("TD")[0];
+        x = rows[i].getElementsByTagName("TD")[pos];
+        y = rows[i + 1].getElementsByTagName("TD")[pos];
         // Check if the two rows should switch place:
         if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
           // I so, mark as a switch and break the loop:
