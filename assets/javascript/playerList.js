@@ -8,7 +8,7 @@ $(document).ready(function(){
         
         document.getElementById('table').innerHTML = table;
         let sorted = document.getElementById('table');
-        sortTable(sorted, 0);
+        sortTableDOWN(sorted, 0);
     });
 });
 

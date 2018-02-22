@@ -23,7 +23,7 @@ $(document).ready(function(){
         document.getElementById('tableH').innerHTML = tableH;
 
         let sortA = document.getElementById('tableA');
-        sortTable(tableA, 3);
+        sortTableUP(sortA, 3);
 
     });
 });
