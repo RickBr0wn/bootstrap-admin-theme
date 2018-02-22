@@ -28,16 +28,16 @@ $(document).ready(function(){
 function createTable(obj, group){
     let grp = group-1;
     let data = "<table><tr><th>Player Name</th><th>Games Played</th><th>Match Points</th><th>Tournament Points</th></tr><tr><td>";
-    data += obj.players[0+grp].name;
-    data += "</td><td>0</td><td>0</td><td>0</td></tr><tr><td>";
-    data += obj.players[1+grp].name;
-    data += "</td><td>0</td><td>0</td><td>0</td></tr><tr><td>";
-    data += obj.players[2+grp].name;
-    data += "</td><td>0</td><td>0</td><td>0</td></tr><tr><td>";
-    data += obj.players[3+grp].name;
-    data += "</td><td>0</td><td>0</td><td>0</td></tr><tr><td>";
-    data += obj.players[4+grp].name;
-    data += "</td><td>0</td><td>0</td><td>0</td></tr></table>";
+    for(let i = 0; i < 5; i++){
+        data += obj.players[i+grp].name;
+        data += "</td><td>";
+        data += obj.players[i+grp].matchesPlayed;
+        data += "</td><td>";
+        data += obj.players[i+grp].mPoints;
+        data += "</td><td>";
+        data += obj.players[i+grp].tPoints;
+        data += "</td></tr><tr><td>";
+    }
     
     return data;
 }
