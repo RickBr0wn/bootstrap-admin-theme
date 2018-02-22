@@ -7,6 +7,9 @@ $(document).ready(function(){
         let table = createTable(obj);
         
         document.getElementById('table').innerHTML = table;
+        let sorted = document.getElementById('table');
+        sortTable(sorted);
+        console.log(sorted);
     });
 });
 

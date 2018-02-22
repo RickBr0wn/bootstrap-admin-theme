@@ -1,6 +1,5 @@
-function sortTable() {
-    var table, rows, switching, i, x, y, shouldSwitch;
-    table = document.getElementById("myTable");
+function sortTable(table) {
+    let rows, switching, i, x, y, shouldSwitch;
     switching = true;
     /* Make a loop that will continue until
     no switching has been done: */
