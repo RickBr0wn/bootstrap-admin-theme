@@ -125,6 +125,9 @@ h3.text-muted {
 .breadcrumb{
   background: #cccccc;
   color: #333333;
+  font-size: 12px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .breadcrumb a{

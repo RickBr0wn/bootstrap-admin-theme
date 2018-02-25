@@ -1,8 +1,8 @@
 // http://myjson.com
 
 $(document).ready(function(){
-    $.getJSON(url, function(result){
-        let arr = result.original.player;
+    $.getJSON(url, function(response){
+        let arr = response.tournament.players;
         console.log(arr);
 
         let matchA = createMatch(arr, 1);
@@ -29,7 +29,17 @@ function createMatch(arr, group){
     console.log(arr);
     let grp = group-1;
     let data = "<table><tr><td>";
-    data += arr[0+grp] + " vs " + arr[1+grp];
+    data += arr[0+grp].name + " vs " + arr[1+grp].name;
+    data += "</td></tr><tr><td>";
+    data += arr[2+grp].name + " vs " + arr[3+grp].name;
+    data += "</td></tr><tr><td>";
+    data += arr[4+grp].name + " vs " + arr[5+grp].name;
+    data += "</td></tr><tr><td>";
+    data += arr[0+grp].name + " vs " + arr[2+grp].name;
+    data += "</td></tr><tr><td>";
+    data += arr[4+grp].name + " vs " + arr[1+grp].name;
+    data += "</td></tr><tr><td>";
+    data += arr[2+grp].name + " vs " + arr[3+grp].name;
     data += "</td></tr></table>";
 
     return data;
