@@ -41,7 +41,7 @@ function createMatch(arr, group){
     let data = "<table><tr><th>Match</th><th>Results</th></tr><tr><td>";
     data += arr[0+grp].name + " vs " + arr[1+grp].name;
     data += "</td><td>";
-    data += arr[0+grp].results[0]"</td>";
+    data += arr[0+grp].results[0] + "</td>";
     data += "</td></tr><tr><td>";
     data += arr[2+grp].name + " vs " + arr[3+grp].name;
     data += "</td></tr><tr><td>";
