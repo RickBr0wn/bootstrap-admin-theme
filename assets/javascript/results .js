@@ -30,6 +30,16 @@ function createMatch(arr, group){
     let grp = group-1;
     let data = "<table><tr><td>";
     data += arr[0+grp].name + " vs " + arr[1+grp].name;
+    data += "</td></tr><tr><td>";
+    data += arr[2+grp].name + " vs " + arr[3+grp].name;
+    data += "</td></tr><tr><td>";
+    data += arr[4+grp].name + " vs " + arr[5+grp].name;
+    data += "</td></tr><tr><td>";
+    data += arr[0+grp].name + " vs " + arr[2+grp].name;
+    data += "</td></tr><tr><td>";
+    data += arr[4+grp].name + " vs " + arr[1+grp].name;
+    data += "</td></tr><tr><td>";
+    data += arr[2+grp].name + " vs " + arr[3+grp].name;
     data += "</td></tr></table>";
 
     return data;
