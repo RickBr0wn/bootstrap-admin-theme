@@ -5,7 +5,12 @@
                 "mPoints": 0,
                 "tPoints": 0,
                 "matchesPlayed": 0,
-                "group": "A"
+                "group": "A",
+                "numberInGroup": 0,
+                "matches": [{
+                    "match": ["johnrjamesh", "johnrstuart", "johnrmichelle", "johnrsue"]
+                }],
+                "results": ["Match not played yet!", "Match not played yet.", "Match not played yet.", "Match not played yet."]
             },
             {
                 "name": "James H",
