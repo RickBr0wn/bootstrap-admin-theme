@@ -37,10 +37,28 @@ function createMatch(arr, group){
     data += "</td></tr><tr><td>";
     data += arr[0+grp].name + " vs " + arr[2+grp].name;
     data += "</td></tr><tr><td>";
-    data += arr[4+grp].name + " vs " + arr[1+grp].name;
+    data += arr[1+grp].name + " vs " + arr[5+grp].name;
     data += "</td></tr><tr><td>";
-    data += arr[2+grp].name + " vs " + arr[3+grp].name;
+    data += arr[4+grp].name + " vs " + arr[4+grp].name;
     data += "</td></tr></table>";
+    data += "</td></tr><tr><td>";
+    data += arr[0+grp].name + " vs " + arr[5+grp].name;
+    data += "</td></tr><tr><td>";
+    data += arr[1+grp].name + " vs " + arr[3+grp].name;
+    data += "</td></tr><tr><td>";
+    data += arr[2+grp].name + " vs " + arr[5+grp].name;
+    data += "</td></tr><tr><td>";
+    data += arr[0+grp].name + " vs " + arr[3+grp].name;
+    data += "</td></tr><tr><td>";
+    data += arr[2+grp].name + " vs " + arr[4+grp].name;
+    data += "</td></tr><tr><td>";
+    data += arr[3+grp].name + " vs " + arr[5+grp].name;
+    data += "</td></tr><tr><td>";
+    data += arr[1+grp].name + " vs " + arr[2+grp].name;
+    data += "</td></tr><tr><td>";
+    data += arr[1+grp].name + " vs " + arr[4+grp].name;
+    data += "</td></tr><tr><td>";
+    data += arr[0+grp].name + " vs " + arr[4+grp].name;
 
     return data;
 }
