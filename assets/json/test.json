@@ -6,18 +6,18 @@
                 "tPoints": 0,
                 "matchesPlayed": 0,
                 "group": "A",
-                "result": [{
-                    "0-1": "Match not played yet.",
-                    "0-2": "Match not played yet.",
-                    "0-3": "Match not played yet.",
-                    "0-4": "Match not played yet.",
-                    "1-2": "Match not played yet.",
-                    "1-3": "Match not played yet.",
-                    "1-4": "Match not played yet.",
-                    "2-3": "Match not played yet.",
-                    "2-4": "Match not played yet.",
-                    "3-4": "Match not played yet."
-                }]
+                "result": {
+                    "match1": "Match not played yet.",
+                    "match2": "Match not played yet.",
+                    "match3": "Match not played yet.",
+                    "match4": "Match not played yet.",
+                    "match5": "Match not played yet.",
+                    "match6": "Match not played yet.",
+                    "match7": "Match not played yet.",
+                    "match8": "Match not played yet.",
+                    "match9": "Match not played yet.",
+                    "match10": "Match not played yet."
+                }
             },
             {
                 "name": "James H",
@@ -53,18 +53,19 @@
                 "tPoints": 0,
                 "matchesPlayed": 0,
                 "group": "B",
-                "match": [{
-                    "0-1": "Match not played yet.",
-                    "0-2": "Match not played yet.",
-                    "0-3": "Match not played yet.",
-                    "0-4": "Match not played yet.",
-                    "1-2": "Match not played yet.",
-                    "1-3": "Match not played yet.",
-                    "1-4": "Match not played yet.",
-                    "2-3": "Match not played yet.",
-                    "2-4": "Match not played yet.",
-                    "3-4": "Match not played yet."
-                }]
+                "result": {
+                    "match1": "Match not played yet.",
+                    "match2": "Match not played yet.",
+                    "match3": "Match not played yet.",
+                    "match4": "Match not played yet.",
+                    "match5": "Match not played yet.",
+                    "match6": "Match not played yet.",
+                    "match7": "Match not played yet.",
+                    "match8": "Match not played yet.",
+                    "match9": "Match not played yet.",
+                    "match10": "Match not played yet.",
+                    "match11": "Match not played yet."
+                }
             },
             {
                 "name": "Andrea",
@@ -100,18 +101,19 @@
                 "tPoints": 0,
                 "matchesPlayed": 0,
                 "group": "C",
-                "match": [{
-                    "0-1": "Match not played yet.",
-                    "0-2": "Match not played yet.",
-                    "0-3": "Match not played yet.",
-                    "0-4": "Match not played yet.",
-                    "1-2": "Match not played yet.",
-                    "1-3": "Match not played yet.",
-                    "1-4": "Match not played yet.",
-                    "2-3": "Match not played yet.",
-                    "2-4": "Match not played yet.",
-                    "3-4": "Match not played yet."
-                }]
+                "result": {
+                    "match1": "Match not played yet.",
+                    "match2": "Match not played yet.",
+                    "match3": "Match not played yet.",
+                    "match4": "Match not played yet.",
+                    "match5": "Match not played yet.",
+                    "match6": "Match not played yet.",
+                    "match7": "Match not played yet.",
+                    "match8": "Match not played yet.",
+                    "match9": "Match not played yet.",
+                    "match10": "Match not played yet.",
+                    "match11": "Match not played yet."
+                }
             },
             {
                 "name": "Jackie",
@@ -147,24 +149,26 @@
                 "tPoints": 0,
                 "matchesPlayed": 0,
                 "group": "D",
-                "match": [{
-                    "0-1": "Match not played yet.",
-                    "0-2": "Match not played yet.",
-                    "0-3": "Match not played yet.",
-                    "0-4": "Match not played yet.",
-                    "1-2": "Match not played yet.",
-                    "1-3": "Match not played yet.",
-                    "1-4": "Match not played yet.",
-                    "2-3": "Match not played yet.",
-                    "2-4": "Match not played yet.",
-                    "3-4": "Match not played yet."
-                }]
+                "result": {
+                    "match1": "Match not played yet.",
+                    "match2": "Match not played yet.",
+                    "match3": "Match not played yet.",
+                    "match4": "Match not played yet.",
+                    "match5": "Match not played yet.",
+                    "match6": "Match not played yet.",
+                    "match7": "Match not played yet.",
+                    "match8": "Match not played yet.",
+                    "match9": "Match not played yet.",
+                    "match10": "Match not played yet.",
+                    "match11": "Match not played yet."
+                }
             },
             {
                 "name": "Sophie",
                 "mPoints": 0,
                 "tPoints": 0,
-                "matchesPlayed": 0
+                "matchesPlayed": 0,
+                "group": "D"
             },
             {
                 "name": "Sue M",
@@ -193,18 +197,19 @@
                 "tPoints": 0,
                 "matchesPlayed": 0,
                 "group": "E",
-                "match": [{
-                    "0-1": "Match not played yet.",
-                    "0-2": "Match not played yet.",
-                    "0-3": "Match not played yet.",
-                    "0-4": "Match not played yet.",
-                    "1-2": "Match not played yet.",
-                    "1-3": "Match not played yet.",
-                    "1-4": "Match not played yet.",
-                    "2-3": "Match not played yet.",
-                    "2-4": "Match not played yet.",
-                    "3-4": "Match not played yet."
-                }]
+                "result": {
+                    "match1": "Match not played yet.",
+                    "match2": "Match not played yet.",
+                    "match3": "Match not played yet.",
+                    "match4": "Match not played yet.",
+                    "match5": "Match not played yet.",
+                    "match6": "Match not played yet.",
+                    "match7": "Match not played yet.",
+                    "match8": "Match not played yet.",
+                    "match9": "Match not played yet.",
+                    "match10": "Match not played yet.",
+                    "match11": "Match not played yet."
+                }
             },
             {
                 "name": "David",
@@ -240,18 +245,19 @@
                 "tPoints": 0,
                 "matchesPlayed": 0,
                 "group": "F",
-                "match": [{
-                    "0-1": "Match not played yet.",
-                    "0-2": "Match not played yet.",
-                    "0-3": "Match not played yet.",
-                    "0-4": "Match not played yet.",
-                    "1-2": "Match not played yet.",
-                    "1-3": "Match not played yet.",
-                    "1-4": "Match not played yet.",
-                    "2-3": "Match not played yet.",
-                    "2-4": "Match not played yet.",
-                    "3-4": "Match not played yet."
-                }]
+                "result": {
+                    "match1": "Match not played yet.",
+                    "match2": "Match not played yet.",
+                    "match3": "Match not played yet.",
+                    "match4": "Match not played yet.",
+                    "match5": "Match not played yet.",
+                    "match6": "Match not played yet.",
+                    "match7": "Match not played yet.",
+                    "match8": "Match not played yet.",
+                    "match9": "Match not played yet.",
+                    "match10": "Match not played yet.",
+                    "match11": "Match not played yet."
+                }
             },
             {
                 "name": "Martin",
@@ -287,18 +293,19 @@
                 "tPoints": 0,
                 "matchesPlayed": 0,
                 "group": "G",
-                "match": [{
-                    "0-1": "Match not played yet.",
-                    "0-2": "Match not played yet.",
-                    "0-3": "Match not played yet.",
-                    "0-4": "Match not played yet.",
-                    "1-2": "Match not played yet.",
-                    "1-3": "Match not played yet.",
-                    "1-4": "Match not played yet.",
-                    "2-3": "Match not played yet.",
-                    "2-4": "Match not played yet.",
-                    "3-4": "Match not played yet."
-                }]
+                "result": {
+                    "match1": "Match not played yet.",
+                    "match2": "Match not played yet.",
+                    "match3": "Match not played yet.",
+                    "match4": "Match not played yet.",
+                    "match5": "Match not played yet.",
+                    "match6": "Match not played yet.",
+                    "match7": "Match not played yet.",
+                    "match8": "Match not played yet.",
+                    "match9": "Match not played yet.",
+                    "match10": "Match not played yet.",
+                    "match11": "Match not played yet."
+                }
             },
             {
                 "name": "Alex",
@@ -334,18 +341,19 @@
                 "tPoints": 0,
                 "matchesPlayed": 0,
                 "group": "H",
-                "match": [{
-                    "0-1": "Match not played yet.",
-                    "0-2": "Match not played yet.",
-                    "0-3": "Match not played yet.",
-                    "0-4": "Match not played yet.",
-                    "1-2": "Match not played yet.",
-                    "1-3": "Match not played yet.",
-                    "1-4": "Match not played yet.",
-                    "2-3": "Match not played yet.",
-                    "2-4": "Match not played yet.",
-                    "3-4": "Match not played yet."
-                }]
+                "result": {
+                    "match1": "Match not played yet.",
+                    "match2": "Match not played yet.",
+                    "match3": "Match not played yet.",
+                    "match4": "Match not played yet.",
+                    "match5": "Match not played yet.",
+                    "match6": "Match not played yet.",
+                    "match7": "Match not played yet.",
+                    "match8": "Match not played yet.",
+                    "match9": "Match not played yet.",
+                    "match10": "Match not played yet.",
+                    "match11": "Match not played yet."
+                }
             },
             {
                 "name": "Heather",
