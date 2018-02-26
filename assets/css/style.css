@@ -90,7 +90,10 @@ body{
 /* */
 
 /* Header */
-#header{    
+#header{   
+    background-image: url('../img/banner2.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
     background-color: #333333;
     color: #ffffff;
     padding: 10px 0;
@@ -111,6 +114,8 @@ h3.text-muted {
 
 .row.header-row {
   margin-top: 12px;
+  padding-top: 50px;
+  padding-bottom: 60px;
 }
 
 /* Custom */
